@@ -1172,7 +1172,7 @@
     (uuid dd689124-b5c5-4dc7-813d-a0bf1f8a781e)
     (property "Reference" "U1" (id 0) (at 67.31 57.15 0))
     (property "Value" "Pmod_connector" (id 1) (at 67.31 59.69 0))
-    (property "Footprint" "Pmod:DIP-12_100" (id 2) (at 74.93 83.82 0)
+    (property "Footprint" "Pmod:PMOD_EXTENSION_BOARD" (id 2) (at 74.93 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 67.31 74.93 0)
@@ -1365,7 +1365,7 @@
       (reference "R3") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/dd689124-b5c5-4dc7-813d-a0bf1f8a781e"
-      (reference "U1") (unit 1) (value "Pmod_connector") (footprint "Pmod:DIP-12_100")
+      (reference "U1") (unit 1) (value "Pmod_connector") (footprint "Pmod:PMOD_EXTENSION_BOARD")
     )
   )
 )
