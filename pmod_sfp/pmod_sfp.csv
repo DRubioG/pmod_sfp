@@ -1,0 +1,8 @@
+Comment,Designator,Footprint,LCSC
+"22uF","C1","Capacitor_SMD:C_0402_1005Metric",""
+"0.1uF","C2,C4,C6","Capacitor_SMD:C_0402_1005Metric",""
+"10uF","C3,C5","Capacitor_SMD:C_0402_1005Metric",""
+"SFP","J1","Connector:Connector_SFP_and_Cage",""
+"220@100MHz","L1,L2","Inductor_SMD:L_0402_1005Metric",""
+"4.7k","R1,R2,R3","Resistor_SMD:R_0402_1005Metric",""
+"Pmod_connector","U1","Pmod:PMOD_EXTENSION_BOARD",""

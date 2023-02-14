@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/dxd/Documentos/GitHub/pmod_sfp/pmod_sfp/pmod_sfp.kicad_sch</source>
+    <date>mar 14 feb 2023 17:06:21</date>
+    <tool>Eeschema 6.0.11-2627ca5db0~126~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pmod_sfp.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76a2bf21-6a7f-4c74-8a82-70b844cf1c1b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a86028dd-a814-4ca0-98ed-3e1632b43454</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc8e0de6-4569-496a-8e09-3da8a939ff04</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9533adeb-1096-467d-a408-2345e84809c5</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d2075a5-a8b9-4333-9046-c4be71b88dbd</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d00a5af-b1b3-4ccc-aa3a-555dd55a396d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SFP</value>
+      <footprint>Connector:Connector_SFP_and_Cage</footprint>
+      <datasheet>http://www.10gtek.com/templates/wzten/pdf/INF-8074.pdf</datasheet>
+      <libsource lib="Interface_Optical" part="SFP" description="Connector for Small Form Factor Pluggable (SFP) module, 1 Gbit/s, serial-to-serial data-agnostic optical transceiver"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1244dd15-790e-4a0e-922a-919048220654</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>220@100MHz</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L_Iron" description="Inductor with iron core"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24c582aa-7d49-42a2-8257-35d32c571773</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>220@100MHz</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L_Iron" description="Inductor with iron core"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc6c3e1a-d4df-43d1-9f62-8b8b62448ea9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d562b2a-5a74-482c-8d52-fc92edfcb3c8</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dda8987b-9c4d-4a47-9549-2a9a8d862ed3</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f32ca684-e619-476e-be8c-a4e8b81b8467</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Pmod_connector</value>
+      <footprint>Pmod:PMOD_EXTENSION_BOARD</footprint>
+      <libsource lib="Pmod" part="Pmod_connector" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pmod_sfp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd689124-b5c5-4dc7-813d-a0bf1f8a781e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Iron">
+      <description>Inductor with iron core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Iron</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Optical" part="SFP">
+      <description>Connector for Small Form Factor Pluggable (SFP) module, 1 Gbit/s, serial-to-serial data-agnostic optical transceiver</description>
+      <docs>http://www.10gtek.com/templates/wzten/pdf/INF-8074.pdf</docs>
+      <footprints>
+        <fp>*SFP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SFP</field>
+        <field name="Datasheet">http://www.10gtek.com/templates/wzten/pdf/INF-8074.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VeeT" type="power_in"/>
+        <pin num="2" name="TX_FAULT" type="open_collector"/>
+        <pin num="3" name="TX_DISABLE" type="input"/>
+        <pin num="4" name="MOD_DEF2" type="bidirectional"/>
+        <pin num="5" name="MOD_DEF1" type="input"/>
+        <pin num="6" name="MOD_DEF0" type="passive"/>
+        <pin num="7" name="RATE_SELECT" type="input"/>
+        <pin num="8" name="RX_LOS" type="open_collector"/>
+        <pin num="9" name="VeeR" type="passive"/>
+        <pin num="10" name="VeeR" type="power_in"/>
+        <pin num="11" name="VeeR" type="passive"/>
+        <pin num="12" name="RD-" type="output"/>
+        <pin num="13" name="RD+" type="output"/>
+        <pin num="14" name="VeeR" type="passive"/>
+        <pin num="15" name="VccR" type="power_in"/>
+        <pin num="16" name="VccT" type="power_in"/>
+        <pin num="17" name="VeeT" type="passive"/>
+        <pin num="18" name="TD+" type="input"/>
+        <pin num="19" name="TD-" type="input"/>
+        <pin num="20" name="VeeT" type="passive"/>
+        <pin num="CAGE" name="CAGE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pmod" part="Pmod_connector">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pmod_connector</field>
+        <field name="Footprint">Pmod:DIP-12_100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="1" type="bidirectional"/>
+        <pin num="4" name="2" type="bidirectional"/>
+        <pin num="5" name="3" type="bidirectional"/>
+        <pin num="6" name="4" type="bidirectional"/>
+        <pin num="7" name="5" type="bidirectional"/>
+        <pin num="8" name="6" type="bidirectional"/>
+        <pin num="9" name="7" type="bidirectional"/>
+        <pin num="10" name="8" type="bidirectional"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_Optical">
+      <uri>/usr/share/kicad/symbols//Interface_Optical.kicad_sym</uri>
+    </library>
+    <library logical="Pmod">
+      <uri>/home/dxd/Documentos/GitHub/pmod_sfp/pmod_sfp/Pmod.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="12" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/SFP_LOSS">
+      <node ref="J1" pin="8" pinfunction="RX_LOS" pintype="open_collector"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="6" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/SFP_RX_N">
+      <node ref="J1" pin="12" pinfunction="RD-" pintype="output"/>
+      <node ref="U1" pin="9" pinfunction="7" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/SFP_RX_P">
+      <node ref="J1" pin="13" pinfunction="RD+" pintype="output"/>
+      <node ref="U1" pin="10" pinfunction="8" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/SFP_TX_DIS">
+      <node ref="J1" pin="3" pinfunction="TX_DISABLE" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="3" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/SFP_TX_N">
+      <node ref="J1" pin="19" pinfunction="TD-" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/SFP_TX_P">
+      <node ref="J1" pin="18" pinfunction="TD+" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VeeT" pintype="power_in"/>
+      <node ref="J1" pin="10" pinfunction="VeeR" pintype="power_in"/>
+      <node ref="J1" pin="11" pinfunction="VeeR" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="VeeR" pintype="passive"/>
+      <node ref="J1" pin="17" pinfunction="VeeT" pintype="passive"/>
+      <node ref="J1" pin="20" pinfunction="VeeT" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="VeeR" pintype="passive"/>
+      <node ref="J1" pin="CAGE" pinfunction="CAGE" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="9" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="VccT" pintype="power_in"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="VccR" pintype="power_in"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7" pinfunction="RATE_SELECT" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="TX_FAULT" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="MOD_DEF2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(J1-Pad5)">
+      <node ref="J1" pin="5" pinfunction="MOD_DEF1" pintype="input+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="MOD_DEF0" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="5" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
